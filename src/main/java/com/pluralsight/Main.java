@@ -2,12 +2,12 @@ package com.pluralsight;
 
 public class Main {
     public static void main(String[] args) {
-        Moped slowRide = new Moped();
-        Car hotRide = new Car();
-        SemiTruck bigRide = new SemiTruck();
-        Hovercraft seaRide = new Hovercraft();
+        Moped slowRide = new Moped("Blue", 5, 200);
+        Car hotRide = new Car(2,"Camaro", 2);
+        SemiTruck bigRide = new SemiTruck(100,2000,1);
+        Hovercraft seaRide = new Hovercraft("Jet Black",120,3,20);
 
-        slowRide.setColor("Red");
+        /*slowRide.setColor("Red");
         slowRide.setFuelCapacity(5);
         System.out.println("The Moped is " + slowRide.getColor() + " with a fuel capacity of " + slowRide.getFuelCapacity() + ".");
 
@@ -21,6 +21,6 @@ public class Main {
 
         seaRide.setColor("Purple");
         seaRide.setNumberOfPassengers(4);
-        System.out.println("The Moped is " + slowRide.getColor() + " with a fuel capacity of " + slowRide.getFuelCapacity() + ".");
+        System.out.println("The Moped is " + slowRide.getColor() + " with a fuel capacity of " + slowRide.getFuelCapacity() + ".");*/
     }
 }
